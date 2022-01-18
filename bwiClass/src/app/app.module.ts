@@ -10,7 +10,7 @@ import {ButtonModule} from 'primeng/button';
     AppComponent
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({ appId: 'serverApp' }),
     AppRoutingModule,
     CardModule,
     ButtonModule

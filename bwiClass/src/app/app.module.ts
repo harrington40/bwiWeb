@@ -4,6 +4,8 @@ import {CardModule} from 'primeng/card';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import {ButtonModule} from 'primeng/button';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ClarityModule } from '@clr/angular';
 
 @NgModule({
   declarations: [
@@ -13,7 +15,9 @@ import {ButtonModule} from 'primeng/button';
     BrowserModule.withServerTransition({ appId: 'serverApp' }),
     AppRoutingModule,
     CardModule,
-    ButtonModule
+    ButtonModule,
+    BrowserAnimationsModule,
+    ClarityModule
     ],
   providers: [],
   bootstrap: [AppComponent]

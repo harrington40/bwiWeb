@@ -1,57 +1,87 @@
-
-<div class="clr-example">
-    <div class="main-container">
-      <header class="header-6">
-        <div class="branding">
-          <a href="javascript://">
-            <cds-icon shape="vm-bug"></cds-icon>
-            <span class="title">Project Clarity</span>
-          </a>
-        </div>
-        <div class="settings">
-          <a href="javascript://" class="nav-link nav-icon">
-            <cds-icon shape="cog"></cds-icon>
-          </a>
-        </div>
-      </header>
-      <nav class="subnav">
-        <ul class="nav">
-          <li class="nav-item">
-            <a class="nav-link active" href="javascript://">Dashboard</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="javascript://">Management</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="javascript://">Cloud</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="javascript://">Tenants</a>
-          </li>
-        </ul>
-      </nav>
-      <div class="content-container">
-        <div class="content-area">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-            magna aliqua. Non enim praesent elementum facilisis leo vel fringilla. Euismod elementum nisi quis eleifend
-            quam adipiscing vitae proin. Volutpat consequat mauris nunc congue nisi vitae suscipit tellus mauris. Dolor
-            magna eget est lorem ipsum dolor sit amet consectetur. Ullamcorper dignissim cras tincidunt lobortis feugiat
-            vivamus. Volutpat commodo sed egestas egestas. Pharetra sit amet aliquam id diam maecenas ultricies mi.
-            Pulvinar etiam non quam lacus suspendisse faucibus interdum posuere. Viverra nibh cras pulvinar mattis nunc
-            sed blandit libero volutpat. Enim nunc faucibus a pellentesque sit amet porttitor eget dolor. Quis viverra
-            nibh cras pulvinar mattis nunc. Donec ac odio tempor orci. Tortor consequat id porta nibh. Risus ultricies
-            tristique nulla aliquet enim tortor. A scelerisque purus semper eget duis at tellus at. Arcu non sodales neque
-            sodales ut. Egestas integer eget aliquet nibh praesent tristique.
-          </p>
-          <p>
-            Leo integer malesuada nunc vel risus commodo viverra. Lectus sit amet est placerat in egestas. Tincidunt vitae
-            semper quis lectus nulla at volutpat diam. Blandit aliquam etiam erat velit scelerisque in dictum non
-            consectetur. Purus sit amet volutpat consequat mauris. Enim blandit volutpat maecenas volutpat blandit aliquam
-            etiam erat velit.
-          </p>
+<div class="main-container">
+    <div class="alert alert-app-level alert-info">
+      <div class="alert-items">
+        <div class="alert-item static">
+          <div class="alert-icon-wrapper">
+            <cds-icon class="alert-icon" shape="info-circle"></cds-icon>
+          </div>
+          <div class="alert-text">
+            App Level Alert
+          </div>
+          <div class="alert-actions">
+            <button class="btn btn-sm alert-action">Action</button>
+          </div>
         </div>
       </div>
+      <button type="button" class="close" aria-label="Close">
+        <cds-icon aria-hidden="true" shape="close"></cds-icon>
+      </button>
+    </div>
+    <header class="header header-6">
+      <div class="branding">
+        <a href="javascript:void(0)">
+          <cds-icon shape="vm-bug"></cds-icon>
+          <span class="title">Project Clarity</span>
+        </a>
+      </div>
+      <div class="header-nav">
+        <a href="javascript://" class="nav-link nav-icon">
+          <cds-icon shape="cloud"></cds-icon>
+        </a>
+        <a href="javascript://" class="active nav-link nav-icon">
+          <cds-icon shape="folder"></cds-icon>
+        </a>
+      </div>
+    </header>
+    <nav class="subnav">
+      <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link active" href="javascript://">Subnav Link 1</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="javascript://">Subnav Link 2</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="javascript://">Subnav Link 3</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="javascript://">Subnav Link 4</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="javascript://">Subnav Link 5</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="content-container">
+      <div class="content-area">
+        <p>
+          Content Area
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eu odio nisi. Vestibulum dignissim eget massa
+          sit amet feugiat. Quisque auctor mattis quam eu suscipit. Morbi ipsum risus, feugiat vitae sem at, tincidunt
+          elementum magna. Phasellus tristique posuere dui, ut tempus felis sagittis quis. Integer iaculis ultrices elit,
+          sed venenatis eros. Vivamus interdum semper velit eget gravida. Sed finibus eget lacus sed semper. Suspendisse
+          fringilla, tellus in molestie cursus, sapien purus volutpat lacus, eget venenatis erat est vitae libero. Aliquam
+          et orci hendrerit, consequat purus non, imperdiet ipsum.
+        </p>
+      </div>
+      <nav class="sidenav">
+        <section class="sidenav-content">
+          <section class="nav-group">
+            <input id="tabexample2" type="checkbox" />
+            <label for="tabexample2">Sidenav</label>
+            <ul class="nav-list">
+              <li><a class="nav-link">Link 1</a></li>
+              <li><a class="nav-link">Link 2</a></li>
+              <li><a class="nav-link active">Link 3</a></li>
+              <li><a class="nav-link">Link 4</a></li>
+              <li><a class="nav-link">Link 5</a></li>
+              <li><a class="nav-link">Link 6</a></li>
+            </ul>
+          </section>
+        </section>
+      </nav>
     </div>
   </div>
   

@@ -4,8 +4,8 @@ Node.js and npm: Angular requires Node.js and npm (Node Package Manager). You ca
 #### Step 1: Install Node.js and npm
 Download the Node.js installer:
 
-Go to the Node.js download page.
-Download the LTS version.
+##### Go to the Node.js download page.
+##### Download the LTS version.
 Install Node.js:
 
 Open the downloaded .pkg file and follow the installation instructions.
@@ -13,11 +13,11 @@ Verify the installation:
 
 Open the Terminal app.
 Run the following commands to verify the installations:
-bash
-Copy code
-node -v
-npm -v
-You should see the installed versions of Node.js and npm.
+-bash
+-Copy code
+-node -v
+-npm -v
+##### You should see the installed versions of Node.js and npm.
 
 #### Step 2: Install Angular CLI
 Install Angular CLI globally:

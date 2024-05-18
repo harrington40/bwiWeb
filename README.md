@@ -1,8 +1,7 @@
-## Installation
-
-Prerequisites
+## Prerequisites
 Node.js and npm: Angular requires Node.js and npm (Node Package Manager). You can install them from the official Node.js website.
-Step 1: Install Node.js and npm
+
+#### Step 1: Install Node.js and npm
 Download the Node.js installer:
 
 Go to the Node.js download page.
@@ -19,7 +18,8 @@ Copy code
 node -v
 npm -v
 You should see the installed versions of Node.js and npm.
-Step 2: Install Angular CLI
+
+#### Step 2: Install Angular CLI
 Install Angular CLI globally:
 
 In the Terminal app, run the following command:
@@ -32,7 +32,7 @@ Run the following command to check the version:
 bash
 Copy code
 ng version
-Step 3: Create a New Angular Project
+#### Step 3: Create a New Angular Project
 Create a new Angular project:
 
 In the Terminal, navigate to the directory where you want to create your project:
@@ -49,7 +49,7 @@ Navigate to the project directory:
 bash
 Copy code
 cd project-name
-Step 4: Run the Angular Application
+#### Step 4: Run the Angular Application
 Serve the application:
 
 In the Terminal, run:
@@ -66,13 +66,4 @@ http://localhost:4200
 You should see the default Angular welcome page, indicating that your Angular application is set up 
 ```
 
-## Contributing
 
-Pull requests are welcome. For major changes, please open an issue first
-to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)

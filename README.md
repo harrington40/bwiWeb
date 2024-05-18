@@ -1,28 +1,69 @@
-# Foobar
-
-Foobar is a Python library for dealing with word pluralization.
-
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+Prerequisites
+Node.js and npm: Angular requires Node.js and npm (Node Package Manager). You can install them from the official Node.js website.
+Step 1: Install Node.js and npm
+Download the Node.js installer:
 
-```bash
-pip install foobar
-```
+Go to the Node.js download page.
+Download the LTS version.
+Install Node.js:
 
-## Usage
+Open the downloaded .pkg file and follow the installation instructions.
+Verify the installation:
 
-```python
-import foobar
+Open the Terminal app.
+Run the following commands to verify the installations:
+bash
+Copy code
+node -v
+npm -v
+You should see the installed versions of Node.js and npm.
+Step 2: Install Angular CLI
+Install Angular CLI globally:
 
-# returns 'words'
-foobar.pluralize('word')
+In the Terminal app, run the following command:
+bash
+Copy code
+npm install -g @angular/cli
+Verify the Angular CLI installation:
 
-# returns 'geese'
-foobar.pluralize('goose')
+Run the following command to check the version:
+bash
+Copy code
+ng version
+Step 3: Create a New Angular Project
+Create a new Angular project:
 
-# returns 'phenomenon'
-foobar.singularize('phenomena')
+In the Terminal, navigate to the directory where you want to create your project:
+bash
+Copy code
+cd path/to/your/directory
+Run the following command to create a new project:
+bash
+Copy code
+ng new project-name
+Follow the prompts to set up your project (e.g., choose whether to add Angular routing, select the stylesheet format).
+Navigate to the project directory:
+
+bash
+Copy code
+cd project-name
+Step 4: Run the Angular Application
+Serve the application:
+
+In the Terminal, run:
+bash
+Copy code
+ng serve
+This will compile and serve your application. The default port is 4200.
+Open the application in a browser:
+
+Open your browser and go to:
+arduino
+Copy code
+http://localhost:4200
+You should see the default Angular welcome page, indicating that your Angular application is set up 
 ```
 
 ## Contributing

@@ -1,19 +1,37 @@
-### Getting Started
-## Prerequisite
-#### Node.js and npm: Angular requires Node.js and npm (Node Package Manager). You can install them from the official Node.js website.
-#### Step 1: Install Node.js and npm
-#### Download the Node.js installer:
+# Foobar
 
-##### Go to the Node.js download page.
-##### Download the LTS version.
-##### Install Node.js:
+Foobar is a Python library for dealing with word pluralization.
 
-##### Open the downloaded .pkg file and follow the installation instructions.
-##### Verify the installation:
+## Installation
 
-##### Open the Terminal app.
-##### Run the following commands to verify the installations:
-###### bash
- ![](https://ibb.co/wskBwtG)
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
 
-  ### Installation and Running
+```bash
+pip install foobar
+```
+
+## Usage
+
+```python
+import foobar
+
+# returns 'words'
+foobar.pluralize('word')
+
+# returns 'geese'
+foobar.pluralize('goose')
+
+# returns 'phenomenon'
+foobar.singularize('phenomena')
+```
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first
+to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)

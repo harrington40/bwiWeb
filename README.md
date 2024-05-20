@@ -15,8 +15,8 @@ Open the Terminal app.
 Run the following commands to verify the installations:
 -bash
 -Copy code
--node -v
--npm -v
+node -v
+ npm -v
 ##### You should see the installed versions of Node.js and npm.
 
 #### Step 2: Install Angular CLI

@@ -65,5 +65,8 @@ Copy code
 http://localhost:4200
 You should see the default Angular welcome page, indicating that your Angular application is set up 
 ```
+##################################
+
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 

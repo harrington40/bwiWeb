@@ -69,4 +69,4 @@ You should see the default Angular welcome page, indicating that your Angular ap
 
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-
+https://us04web.zoom.us/j/76469603353?pwd=jtKvMzdlFDkCh2H783YcSVwWRbIU4J.1
